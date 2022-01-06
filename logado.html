@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logado</title>
+    <script>
+        if(sessionStorage.length == 0 || sessionStorage.getItem("nome") == null) {
+            window.location.replace("index.html");
+            sessionStorage.clear();
+        }
+        if(sessionStorage.getItem("nome") != "admin"){
+            sessionStorage.removeItem("nome");
+            sessionStorage.clear();
+            window.replace("index.html");
+        }
+    </script>
+</head>
+<body>
+    <p id="ok">  </p>
+
+    <button id="sair">Sair</button>
+    <script>
+        document.getElementById("ok").innerHTML = `Logado: ${sessionStorage.getItem("nome")}`;  
+        document.getElementById("sair").addEventListener('click', function(){
+            sessionStorage.removeItem("nome");
+            sessionStorage.clear();
+            window.location.replace("index.html");
+        })
+    </script>
+</body>
+</html>

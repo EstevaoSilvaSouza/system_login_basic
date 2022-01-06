@@ -1,0 +1,110 @@
+body {
+    background-color: rgba(14, 3, 24, 0.880);
+}
+#mensagem {
+    color:green;
+}
+
+#PAI-DE-TODOS-HEHE {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    max-width: 900px;
+    padding:6%;
+    box-shadow: 20px 15px 9px black;
+}
+
+.img-fundo {
+    border-bottom: 1px solid ;
+    border-right: 1px solid ;
+    border-right-color: black;
+    border-bottom-color: black;
+    box-shadow: 40px 25px 25px black;
+}
+
+
+
+
+#main-form p{
+    color:white !important;
+    font-size: 23px;
+    font-family: monospace;
+    box-shadow: 0 0 1em black;
+}
+
+#form-login{
+    margin-top: 30px;
+    box-shadow: 20px 10px 10px black;
+    padding:5%;
+}
+
+#imagem {
+    height:auto;
+    margin-right:50px;
+}
+
+#login {
+    display:flex;
+    justify-content: center;
+}
+
+#login label {
+    color: white;
+    margin-right:15px;
+}
+
+#login #usuario {
+    color: black;
+    font-family:sans-serif;
+    border: 1px solid black;
+    border-radius: 55px 20px;
+    padding:4px;    
+    text-align: center;
+    font-weight: bold;
+}
+
+#senhaA {
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#senhaA #senha{
+    color: black;
+    font-family:sans-serif;
+    border: 1px solid black;
+    border-radius: 55px 20px;
+    padding:4px;    
+    text-align: center;
+    font-weight: bold;
+}
+
+#senhaA label {
+    color: white;
+    margin-right:15px;
+}
+#entrarr{
+    display:flex;
+    justify-content: center;
+    margin-top:25px;
+}
+
+#entrarr #entrar{
+    color: white;
+    background-color:rgba(14, 3, 24, 0.480);
+    width:230px;
+    height:40px;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 55px 20px;
+}
+#entrarr #entrar:hover{
+    color: white;
+    width:232px;
+    height:42px;
+    padding:5px;
+    border:1px solid white;
+    border-radius: 55px 20px;
+}
